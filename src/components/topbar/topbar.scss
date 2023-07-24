@@ -1,0 +1,99 @@
+.topbar{
+    background: #fff;
+    padding: 24px 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    &__left{
+        display: flex;
+        column-gap: 64px;
+        flex: .5;
+
+        &__logo{
+            background: linear-gradient(122deg, #0096FF 42.14%, #0048FF 96.70%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+            font-family: Raleway;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            letter-spacing: 1.14px;
+        }
+
+        &__menu{
+            font-family: Raleway;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            display: flex;
+            column-gap: 64px;
+
+            &__courses, &__programs{
+                display: flex;
+                column-gap: 12px;
+                align-items: center;
+                cursor: pointer;
+
+                &__chevron_down{
+                    background: url(../../../public/chevron_down.svg);
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+
+        }
+        
+    }
+
+    &__right{
+        display: flex;
+        column-gap: 64px;
+        align-items: center;
+
+        &__searchbar{
+            background: url(../../../public/search_icon.svg);
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+
+        }
+
+        &__slider{
+            display: flex;
+            column-gap: 64px;
+            text-align: center;
+            font-family: Raleway;
+            font-size: 16px;
+            font-style: normal;
+            line-height: normal;
+            align-items: center;
+
+
+            &__login{
+                color: #000;
+                font-weight: 500;
+                cursor: pointer;
+
+            }
+            &__join{
+                color: #FFF;
+                display: flex;
+                height: 40px;
+                padding: 10px 42px;
+                justify-content: center;
+                align-items: center;
+                font-weight: 700;
+                text-transform: uppercase;
+                border-radius: 52px;
+                background: linear-gradient(224deg, #0048FF 0%, #0096FF 100%);
+                cursor: pointer;
+            }
+        }
+    }
+}

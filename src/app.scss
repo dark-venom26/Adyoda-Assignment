@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Raleway:wght@400;500;700;900&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app{
+    background: url('../public/background.png'), lightgray 50% / cover no-repeat;
+    height: 100%;
+}
